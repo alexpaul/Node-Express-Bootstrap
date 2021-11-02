@@ -14,3 +14,8 @@ app.set('view engine', 'ejs')
 app.get('/', (req, res) => {
     res.render('home')
 })
+
+// run `node index.js` and visit localhost:3000/webstack to view rendered EJS page
+app.get('/webstack', (req, res) => {
+    res.render('webstack')
+})
