@@ -8,7 +8,9 @@ app.listen(port, () => {
     console.log(`Node Server running on Port ${port}`)
 })
 
-// run `node index.js` and visit localhost:3000 to view rendered HTML page
+app.set('view engine', 'ejs')
+
+// run `node index.js` and visit localhost:3000 to view rendered EJS page
 app.get('/', (req, res) => {
-    res.send(`<h1>Welcome to our Homepage.</h1>`)
+    res.render('home')
 })
