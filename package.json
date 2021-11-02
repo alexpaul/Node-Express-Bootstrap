@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/alexpaul/Node-Express-Bootstrap/issues"
   },
-  "homepage": "https://github.com/alexpaul/Node-Express-Bootstrap#readme"
+  "homepage": "https://github.com/alexpaul/Node-Express-Bootstrap#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
