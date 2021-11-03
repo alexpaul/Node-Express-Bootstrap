@@ -4,6 +4,10 @@ const app = express()
 
 const port = '3000'
 
+const moviesData = require('./movies.json')
+
+console.log(moviesData)
+
 app.listen(port, () => {
     console.log(`Node Server running on Port ${port}`)
 })
