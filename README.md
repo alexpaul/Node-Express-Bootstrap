@@ -1,6 +1,11 @@
 # Node, Express, EJS and Bootstrap
 
-Using Node, Express, EJS and Bootstrap to demo navigation, passing data and using EJS includes or partials.
+Using Node, Express, EJS and Bootstrap to demo the following: 
+* running a node server
+* setting up routes 
+* navigation using a Bootstrap Nav Bar
+* passing data from a route to an EJS page
+* using EJS includes or partials
 
 ## Installation 
 
