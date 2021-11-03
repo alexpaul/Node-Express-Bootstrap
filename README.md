@@ -1,11 +1,11 @@
 # Node, Express, EJS and Bootstrap
 
 Using Node, Express, EJS and Bootstrap to demo the following: 
-* running a node server
-* setting up routes using express
-* navigation using a Bootstrap Nav Bar
-* passing data from a route to an EJS page
-* using EJS, using EJS includes (partials)
+* running a [node server](https://nodejs.org/en/)
+* setting up routes using [express](http://expressjs.com/en/guide/routing.html)
+* navigation using a [Bootstrap Nav Bar](https://getbootstrap.com/docs/4.0/components/navbar/)
+* passing data from a route to an [EJS page](https://ejs.co/#docs)
+* using EJS, using EJS includes [(partials)](https://sailsjs.com/documentation/concepts/views/partials)
 
 ## Installation 
 
