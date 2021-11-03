@@ -2,7 +2,7 @@
 
 Using Node, Express, EJS and Bootstrap to demo the following: 
 * running a node server
-* setting up routes 
+* setting up routes using express
 * navigation using a Bootstrap Nav Bar
 * passing data from a route to an EJS page
 * using EJS, using EJS includes (partials)
