@@ -1,6 +1,6 @@
 # Node, Express, EJS and Bootstrap
 
-Using Node, Express, EJS and Bootstrap to demo navigation.
+Using Node, Express, EJS and Bootstrap to demo navigation, passing data and using EJS includes.
 
 ## Installation 
 
