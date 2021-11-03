@@ -1,4 +1,4 @@
-# Node-Express-Bootstrap
+# Node, Express, EJS and Bootstrap
 
 Using Node, Express and Bootstrap.
 
