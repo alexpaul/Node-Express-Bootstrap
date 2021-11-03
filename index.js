@@ -15,7 +15,8 @@ app.get('/', (req, res) => {
     res.render('home')
 })
 
-// run `node index.js` and visit localhost:3000/webstack to view rendered EJS page
-app.get('/webstack', (req, res) => {
-    res.render('webstack')
+// run `node index.js` and visit localhost:3000/frontend to view rendered EJS page
+app.get('/frontend', (req, res) => {
+    const technologies = ['HTML', 'CSS', 'JavaScript', 'Bootstrap', 'React']
+    res.render('frontend', { technologies })
 })
