@@ -20,3 +20,9 @@ app.get('/frontend', (req, res) => {
     const technologies = ['HTML', 'CSS', 'JavaScript', 'Bootstrap', 'React']
     res.render('frontend', { technologies })
 })
+
+// run `node index.js` and visit localhost:3000/backend to view rendered EJS page
+app.get('/backend', (req, res) => {
+    const technologies = ['Node.js', 'Express.js', 'SQL', 'GO', 'MongoDB', 'Java', 'C++']
+    res.render('backend', { technologies })
+})
