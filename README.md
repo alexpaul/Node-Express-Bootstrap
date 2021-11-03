@@ -4,4 +4,6 @@ Using Node, Express and Bootstrap.
 
 ## Installation 
 
-To run this project, clone it locally and run `npm install`. 
+1. Clone this repo. 
+2. Run `npm install`. 
+3. Run the node server `node index.js` and navigate to `localhost:3000`. 
