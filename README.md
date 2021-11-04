@@ -23,6 +23,9 @@ app.get('/ron', (req, res) => {
     // destructuring an object using the ...spread operator 
     // passing movie over to the EJS page will give us access to ALL movie's properties
     const movie = { ...moviesData.results[0] } 
-    res.render('ron', { movie })
+
+    // we can go a step further and destructure `movie` so we can access the properties 
+    // directly without needing to write `movie.originalTitle` instead just write `originalTitle`
+    res.render('ron', { ...movie })
 })
 ```
