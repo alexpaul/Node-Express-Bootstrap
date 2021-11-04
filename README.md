@@ -18,7 +18,7 @@ Using Node, Express, EJS and Bootstrap to demo the following:
 
 ## Destructuring an Object 
 
-```ejs
+```javascript
 app.get('/ron', (req, res) => {
     // destructuring an object using the ...spread operator 
     // passing movie over to the EJS page will give us access to ALL movie's properties
