@@ -1,0 +1,8 @@
+<%- include('partials/header', { title: originalTitle }) %>
+<%- include('partials/navbar') %>
+    <div class="container">
+        <h1><%= originalTitle %></h1>
+        <img src=<%= poster %> alt="movie poster">
+        <p><%= overview %><a href=<%= video %>>Trailer</a></p>
+    </div>
+<%- include('partials/footer') %>

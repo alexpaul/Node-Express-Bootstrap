@@ -6,8 +6,6 @@ const port = '3000'
 
 const moviesData = require('./movies.json')
 
-console.log(moviesData)
-
 app.listen(port, () => {
     console.log(`Node Server running on Port ${port}`)
 })
@@ -29,4 +27,14 @@ app.get('/frontend', (req, res) => {
 app.get('/backend', (req, res) => {
     const technologies = ['Node.js', 'Express.js', 'SQL', 'GO', 'MongoDB', 'Java', 'C++']
     res.render('backend', { technologies })
+})
+
+app.get('/ron', (req, res) => {
+    // destructuring an object using the ...spread operator 
+    // passing movie over to the EJS page will give us access to ALL movie's properties
+    const movie = { ...moviesData.results[0] } 
+
+    // we can go a step further and destructure `movie` so we can access the properties 
+    // directly without needing to write `movie.originalTitle` instead just write `originalTitle`
+    res.render('ron', { ...movie })
 })

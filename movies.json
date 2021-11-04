@@ -1,43 +1,42 @@
 {
-	"page": 1,
 	"results": [{
 			"adult": false,
-			"genre_ids": [
+			"genreIds": [
 				16,
 				878,
 				10751,
 				35
 			],
 			"id": 482321,
-			"original_language": "en",
-			"original_title": "Ron's Gone Wrong",
+			"originalLanguage": "en",
+			"originalTitle": "Ron's Gone Wrong",
 			"overview": "In a world where walking, talking, digitally connected bots have become children's best friends, an 11-year-old finds that his robot buddy doesn't quite work the same as the others do.",
 			"popularity": 349.507,
 			"poster": "http://image.tmdb.org/t/p/w342/gA9QxSravC2EVEkEKgyEmDrfL0e.jpg",
-			"release_date": "2021-10-15",
+			"releaseDate": "2021-10-15",
 			"title": "Ron's Gone Wrong",
-			"video": false,
-			"vote_average": 7.4,
-			"vote_count": 37
+			"video": "https://www.youtube.com/watch?v=8I8nMtzN05s",
+			"voteAverage": 7.4,
+			"voteCount": 37
 		},
 		{
 			"adult": false,
-			"genre_ids": [
+			"genreIds": [
 				16,
 				35,
 				10751
 			],
 			"id": 639721,
-			"original_language": "en",
-			"original_title": "The Addams Family 2",
+			"originalLanguage": "en",
+			"originalTitle": "The Addams Family 2",
 			"overview": "The Addams get tangled up in more wacky adventures and find themselves involved in hilarious run-ins with all sorts of unsuspecting characters.",
 			"popularity": 1618.449,
 			"poster": "http://image.tmdb.org/t/p/w342//ld7YB9vBRp1GM1DT3KmFWSmtBPB.jpg",
-			"release_date": "2021-10-01",
+			"releaseDate": "2021-10-01",
 			"title": "The Addams Family 2",
-			"video": false,
-			"vote_average": 7.5,
-			"vote_count": 495
+			"video": "https://www.youtube.com/watch?v=946LiJiMQrQ",
+			"voteAverage": 7.5,
+			"voteCount": 495
 		}
 	]
 }
